@@ -1,4 +1,4 @@
-# My Awesome Blog
+# Design Dictionary Blog
 
 Welcome to my blog repository! This is where I share my thoughts, experiences, and knowledge on various topics. Feel free to explore my posts, leave comments, and provide feedback.
 
@@ -23,6 +23,9 @@ vbnet
 Copy code
 
 2. Install any necessary dependencies if required.
+
+   the frontend runs on react javascript and simply after installing all the needed packages run the frontend with npm start dev
+   and run the backend with npx nodemon index.js. 
 
 ## Contributing
 
