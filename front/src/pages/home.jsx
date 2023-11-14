@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 export default function Home() {
     const [posts, setPosts] = useState([])
-
+    //practically same code as the blogs post
     useEffect(() => {
         const getPosts = async () => {
             await axios.get("http://localhost:4000/posts/getPosts").then(res => {

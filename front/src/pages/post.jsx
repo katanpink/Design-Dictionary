@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 
 
 const Post = () => {
+    //fetches the id and creates blog post
     const { id } = useParams();
 
     const [post, setPost] = useState({})
@@ -21,7 +22,7 @@ const Post = () => {
         fetchBlog()
     }, [])
 
-
+    //create the HTML page based off the database information
     return (
         <div>
             <div className="page" id="top">

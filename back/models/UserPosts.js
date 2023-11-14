@@ -1,3 +1,4 @@
+//User schema
 const mongoose = require('mongoose');
 const signSchema = new mongoose.Schema({
     name: { type: String, default: 'John' },

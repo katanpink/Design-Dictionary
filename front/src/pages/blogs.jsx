@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 export default function Blogs() {
 
     const [posts, setPosts] = useState([])
-
+    //Connect the information given website
     useEffect(() => {
         const getPosts = async () => {
             await axios.get("http://localhost:4000/posts/getPosts").then(res => {
@@ -50,6 +50,7 @@ export default function Blogs() {
     )
 }
 
+//This function runns only the top rated posts and only 3
 function Feature({ posts }) {
     const [selectedId, setSelectedId] = useState(null)
 
@@ -57,6 +58,7 @@ function Feature({ posts }) {
         setSelectedId(id !== selectedId ? id : null)
     }
     return (
+        //handles the cards for each blog post
         <div className="flashcards">
             {posts.map((post, index) => {
                 console.log(post)
@@ -82,6 +84,7 @@ function Feature({ posts }) {
     )
 }
 
+//For other shown projects
 function Projects({ posts }) {
     const [selectedId, setSelectedId] = useState(null)
 

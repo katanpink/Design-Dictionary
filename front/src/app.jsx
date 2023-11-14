@@ -9,7 +9,7 @@ import Post from "./pages/post.jsx"
 import Footer from "./pages/footer.jsx"
 import RegisterUser from "./pages/registerUser.jsx"
 
-
+//connects all the routes and creates the working sites
 export default function App() {
     
     return (

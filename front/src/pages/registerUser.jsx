@@ -4,7 +4,7 @@ import { useState, Fragment } from "react"
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom'
 
-
+//same as the post create but for users
 export default function RegisterUser() {
     const [Content, setContent] = useState([])
 

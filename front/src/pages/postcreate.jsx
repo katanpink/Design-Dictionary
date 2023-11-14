@@ -5,7 +5,7 @@ import { useState, Fragment } from "react"
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom'
 
-
+//post creation
 export default function PostCreate() {
     const [Content, setContent] = useState([])
     const [userForm, setUserForm] = useState({
@@ -40,7 +40,7 @@ export default function PostCreate() {
       }
 
     const navigate = useNavigate()
-
+      //handles the connection to the databse
     const onSubmit = async (e) => {
         e.preventDefault();
         var tit = document.getElementById('title').value

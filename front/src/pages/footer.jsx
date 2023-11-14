@@ -2,6 +2,7 @@ import "./index.css"
 import "./style.css"
 
 export default function Footer() {
+    //copy paste footer
     return (
         <div className="footer">
         <br />

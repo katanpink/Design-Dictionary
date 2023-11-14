@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function Contact() {
 
-
+//contact page html
 
     return (
         <div className="page">

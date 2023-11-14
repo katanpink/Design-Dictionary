@@ -3,7 +3,7 @@ import "./style.css"
 import { Link } from "react-router-dom"
 
 export default function Nav() {
-    
+    //Reusable navebar for all sites that also connects the routes
     return (
         <div className="page" id="top">
             <ul className="nav-bar">
@@ -19,3 +19,7 @@ export default function Nav() {
         </div>
     )
  }
+
+function  signChk() {
+    
+}
